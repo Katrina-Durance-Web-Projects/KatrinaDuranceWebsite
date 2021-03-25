@@ -1,0 +1,80 @@
+@media only screen and (min-width: 701px) {
+
+    /* CSS RESETS */
+    * {
+        background-color: white;
+        border: 0 none;
+        font-weight: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+        }
+
+    @font-face {
+        font-family: "PressStart";
+        src: url("../fonts/PressStart2P-Regular.ttf") format("truetype");
+    }
+
+    .body-homepage {
+        display: grid;
+        grid-template-rows: 15em 10em 7em 10em 7em 10em 10em;
+    }
+
+    .header-homepage {
+        align-items: top;
+        background-image: url("../images/pink_vaporwave_grid_header.jpeg");
+        background-position: center;
+        color: black;
+        display: flex;
+        font-family: "PressStart";
+        font-size: 3em;
+        font-weight: 500;
+        justify-content: center;
+        padding-top: .25em;
+    }
+
+    article {
+        background-color: black;
+        color: white;
+    }
+
+    .divider1 {
+        background-image: url("../images/vaporwave_lines1.png");
+        resize: both;
+    }
+    .divider2 {
+        background-image: url("../images/vaporwave_lines2.png");
+        resize: both;
+    }
+    .divider3 {
+        background-image: url("../images/vaporwave_lines3.png");
+        resize: both;
+    }
+
+    /* PAGES */
+
+    /* About Me Page */
+
+    .body-about-me {
+        display: grid;
+        grid-template-rows: 10em 10em 7em 10em 7em 10em 10em;
+    }
+
+    .header-about-me {
+        align-items: center;
+        background-image: url("../images/pink_multicolor_binary_divider.jpeg");
+        background-size: cover;
+        color: black;
+        display: flex;
+        font-family: "PressStart";
+        font-size: 3em;
+        font-weight: 500;
+        justify-content: center;
+        resize: both;
+    }
+
+}
