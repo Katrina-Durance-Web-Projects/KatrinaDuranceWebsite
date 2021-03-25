@@ -1,4 +1,4 @@
-#www.katrinadurance.com Personal Website for Katrina Durance
+####Personal Website for Katrina Durance www.katrinadurance.com 
 
 This is my personal website that I started building in March 2021.
 
