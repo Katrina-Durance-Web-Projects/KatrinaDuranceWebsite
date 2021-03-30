@@ -1,7 +1,6 @@
 @media only screen and (max-width: 400px) {
 
     * {
-        background-color: white;
         border: 0 none;
         font-weight: inherit;
         font-family: inherit;
@@ -13,8 +12,48 @@
         vertical-align: baseline;
         }
 
-    .header {
+        @font-face {
+            font-family: "Iceland";
+            src: url("../fonts/Iceland-Regular.ttf") format("truetype");
+        }
         
-    }
+            /* About Me Page */
+    
+            .body-about-me {
+                display: grid;
+                grid-template-rows: 2.5em  80vh 1em;
+            }
+        
+            .header-about-me {
+                align-items: center;
+                background-image: url("../images/vaporwave_space_header.jpg");
+                background-size: cover;
+                display: flex;
+                font-family: "Iceland";
+                font-size: 2em;
+                font-weight: 500;
+                justify-content: center;
+                text-decoration: none;
+                white-space: nowrap;
+            }
+        
+            .homepage-link {
+                align-items: center;
+                background-color: transparent;
+                color: black;
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+            }
+        
+            section {
+                background-color: rgb(24,26,24);
+            }
+        
+            footer {
+                background-image: url("../images/vaporwave_space_header.jpg");
+                background-size: cover;
+            }
+    
 
 }
