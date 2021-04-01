@@ -17,6 +17,11 @@
         src: url("../fonts/Iceland-Regular.ttf") format("truetype");
     }
 
+    @font-face {
+        font-family: "Roboto-Light";
+        src: url("../fonts/Roboto-Light.ttf") format("truetype");
+    }
+
     .homepage {
         align-items: center;
         background-image: url("../images/bicolor_vaporwave_grid.jpeg");
@@ -43,6 +48,7 @@
         font-size: 10em;
         justify-content: center;
         text-align: center;
+        text-shadow: 5px 2px 5px rgb(240, 201, 247);
     }
 
     .options {
@@ -67,7 +73,6 @@
         color: rgb(44, 165, 230);
     }
 
-
     /* PAGES */
 
     /* ABOUT ME PAGE */
@@ -90,6 +95,10 @@
         white-space: nowrap;
     }
 
+    .asteroid {
+        width: .4em;
+    }
+
     .homepage-link {
         align-items: center;
         background-color: transparent;
@@ -101,8 +110,12 @@
 
     section {
         align-items: center;
+        background-color: rgb(24,24,24);
+        color: white;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        font-family: "Roboto-Light";
+        font-size: 1.2em;
+        grid-template-columns: 35em 35em;
         justify-content: center;
     }
 
@@ -110,7 +123,7 @@
         border-radius: 20%;
         height: auto;
         padding-left: 3em;
-        width: 50em;
+        width: 40em;
     }
 
     footer {
