@@ -79,12 +79,12 @@
 
     .body-about-me {
         display: grid;
-        grid-template-rows: 6em 85vh 3em;
+        grid-template-rows: 5em 85vh 3em;
     }
 
     .header-about-me {
         align-items: center;
-        background-image: url("../images/vaporwave_space_header.jpg");
+        background-image: url("../images/vaporwave_space1.jpg");
         background-size: cover;
         display: flex;
         font-family: "Iceland";
@@ -92,48 +92,136 @@
         font-weight: 500;
         justify-content: center;
         text-decoration: none;
-        white-space: nowrap;
     }
 
     .asteroid {
-        width: .4em;
+        height: auto;
+        padding-right: .1em;
+        width: .5em;
     }
 
     .homepage-link {
         align-items: center;
-        background-color: transparent;
         color: black;
         display: flex;
         justify-content: center;
         text-decoration: none;
     }
 
-    section {
+    .text-img-wrapper {
         align-items: center;
         background-color: rgb(24,24,24);
+        border-bottom: .25em solid rgb(184,56,228);
+        border-top: .25em solid rgb(184,56,228);
         color: white;
         display: grid;
         font-family: "Roboto-Light";
         font-size: 1.2em;
-        grid-template-columns: 35em 35em;
+        grid-template-columns: 30em 30em;
         justify-content: center;
     }
 
-    img {
+    .Katrina-sitting {
         border-radius: 20%;
+        border:.25em solid rgb(184,56,228);
         height: auto;
-        padding-left: 3em;
+        margin-left: 3em;
+        margin-right: 3em;
         width: 40em;
     }
 
-    footer {
-        background-image: url(../images/vaporwave_space_header.jpg);
+    .footer-about-me {
+        background-image: url("../images/vaporwave_space2.jpg");
         background-size: cover;
     }
 
+
      /* BLOG PAGE */
+
+    .body-blog {
+        display: grid;
+        grid-template-rows: 6em 85vh 3em;
+    }
+
+    .header-blog {
+        align-items: center;
+        background-image: url("../images/vaporwave_space2.jpg");
+        background-size: cover;
+        display: flex;
+        font-family: "Iceland";
+        font-size: 6em;
+        font-weight: 500;
+        justify-content: center;
+        padding-bottom: .2em;
+        text-decoration: none;
+    }
+
+    .planet {
+        height: auto;
+        padding-right: .1em;
+        width: .5em;
+    }
+
+    .blog-wrapper {
+        align-items: center;
+        background-color: rgb(24,24,24);
+        border-bottom: .25em solid rgb(184,56,228);
+        border-top: .25em solid rgb(184,56,228);
+        color: white;
+        display: grid;
+        font-family: "Roboto-Light";
+        font-size: 1.2em;
+        /* grid-template-columns: 30em 30em; */
+        justify-content: center;
+    }
+
+    .footer-blog {
+        background-image: url("../images/vaporwave_space1.jpg");
+        background-size: cover;
+    }
 
 
     /* PORTFOLIO PAGE */
+
+    .body-portfolio {
+        display: grid;
+        grid-template-rows: 5em 85vh 3em;
+    }
+
+    .header-portfolio {
+        align-items: center;
+        background-image: url("../images/vaporwave_space3.jpg");
+        background-size: cover;
+        display: flex;
+        font-family: "Iceland";
+        font-size: 6em;
+        font-weight: 500;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .meteorite {
+        height: auto;
+        padding-left: .1em;
+        width: .5em;
+    }
+
+    .portfolio-wrapper {
+        align-items: center;
+        background-color: rgb(24,24,24);
+        border-bottom: .25em solid rgb(184,56,228);
+        border-top: .25em solid rgb(184,56,228);
+        color: white;
+        display: grid;
+        font-family: "Roboto-Light";
+        font-size: 1.2em;
+        /* grid-template-columns: 30em 30em; */
+        justify-content: center;
+    }
+
+    .footer-portfolio {
+        background-image: url("../images/vaporwave_space4.jpg");
+        background-size: cover;
+    }
 
 }
