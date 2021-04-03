@@ -168,10 +168,10 @@
         border-bottom: .25em solid rgb(184,56,228);
         border-top: .25em solid rgb(184,56,228);
         color: white;
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         font-family: "Roboto-Light";
-        font-size: 1.2em;
-        /* grid-template-columns: 30em 30em; */
+        font-size: 1em;
         justify-content: center;
     }
 
