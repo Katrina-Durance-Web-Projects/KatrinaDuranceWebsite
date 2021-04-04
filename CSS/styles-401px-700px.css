@@ -30,7 +30,7 @@
         color:rgb(184,56,228);
         display: grid;
         font-family: "Iceland";
-        font-weight: 800;
+        font-weight: 700;
         grid-template-rows: 100vh;
         justify-content: center;
     }
@@ -45,7 +45,7 @@
     .name {
         align-items: center;
         display: flex;
-        font-size: 6em;
+        font-size: 4em;
         justify-content: center;
         text-align: center;
         text-shadow: 5px 2px 5px rgb(240, 201, 247);
@@ -60,7 +60,7 @@
 
     .link {
         color:rgb(184,56,228);
-        font-size: 5em;
+        font-size: 2em;
         padding: .5em;
         text-decoration: none;
     }

@@ -45,7 +45,7 @@
     .name {
         align-items: center;
         display: flex;
-        font-size: 10em;
+        font-size: 7em;
         justify-content: center;
         text-align: center;
         text-shadow: 5px 2px 5px rgb(240, 201, 247);
@@ -54,7 +54,7 @@
     .options {
         align-items: center;
         display: flex;
-        font-size: 5em;
+        font-size: 3em;
         justify-content: center;
         padding-top: .5em;
     }
