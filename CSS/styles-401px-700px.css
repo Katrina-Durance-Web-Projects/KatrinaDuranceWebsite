@@ -92,6 +92,7 @@
         font-weight: 500;
         justify-content: center;
         text-decoration: none;
+        white-space: nowrap;
     }
 
     .asteroid {
@@ -123,14 +124,20 @@
 
     .about-me-text {
         padding: 1em;
+    }
+
+    .Katrina-headshot {
+        display: none;
+    }
 
     .Katrina-sitting {
         border-radius: 20%;
-        border:.25em solid rgb(184,56,228);
+        border: 2px solid rgb(184,56,228); 
+        display: flex;
         height: auto;
-        margin-left: 3em;
-        margin-right: 3em;
-        width: 20em;
+        margin-left: .5em;
+        margin-right: 1em;
+        width: 28em;
     }
 
     .footer-about-me {

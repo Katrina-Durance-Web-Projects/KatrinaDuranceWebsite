@@ -121,13 +121,18 @@
         justify-content: center;
     }
 
+    .Katrina-headshot {
+        display: none;
+    }
+
     .Katrina-sitting {
         border-radius: 20%;
-        border:.25em solid rgb(184,56,228);
+        border: 2px solid rgb(184,56,228); 
+        display: block;
         height: auto;
-        margin-left: 3em;
-        margin-right: 3em;
-        width: 40em;
+        margin-bottom: .5em;
+        margin-top: .5em;
+        width: 30em;
     }
 
     .footer-about-me {
