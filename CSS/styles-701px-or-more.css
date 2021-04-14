@@ -42,19 +42,20 @@
         justify-content: center;
     }
 
-    .name {
+    .name-homepage {
         align-items: center;
         display: flex;
-        font-size: 7em;
+        font-size: 8em;
         justify-content: center;
         text-align: center;
         text-shadow: 5px 2px 5px rgb(240, 201, 247);
+        white-space: nowrap;
     }
 
     .options {
         align-items: center;
         display: flex;
-        font-size: 3em;
+        font-size: 4em;
         justify-content: center;
         padding-top: .5em;
     }
@@ -79,7 +80,7 @@
 
     .body-about-me {
         display: grid;
-        grid-template-rows: 5em 85vh 3em;
+        grid-template-rows: 5em 85vh 4em;
     }
 
     .header-about-me {
@@ -135,9 +136,44 @@
         width: 30em;
     }
 
+    .about-me-text {
+        margin-left: 1.5em;
+    }
+
     .footer-about-me {
+        align-items: center;
         background-image: url("../images/vaporwave_space2.jpg");
         background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .name {
+        font-family: "Iceland";
+        font-size: 4em;
+    }
+    .home-icon {
+        height: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 3em;
+    }
+    .social-media-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linkedin-icon {
+        height: 3em;
+        width: 3em;
+    }
+    .github-icon {
+        height: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 3em;
+    }
+    .twitter-icon {
+        height: 3em;
+        width: 3em;
     }
 
 
@@ -145,7 +181,7 @@
 
     .body-blog {
         display: grid;
-        grid-template-rows: 6em 85vh 3em;
+        grid-template-rows: 6em 85vh 4em;
     }
 
     .header-blog {
@@ -181,8 +217,40 @@
     }
 
     .footer-blog {
+        align-items: center;
         background-image: url("../images/vaporwave_space1.jpg");
         background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .name {
+        font-family: "Iceland";
+        font-size: 4em;
+    }
+    .home-icon {
+        height: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 3em;
+    }
+    .social-media-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linkedin-icon {
+        height: 3em;
+        width: 3em;
+    }
+    .github-icon {
+        height: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 3em;
+    }
+    .twitter-icon {
+        height: 3em;
+        width: 3em;
+    }
     }
 
 
@@ -190,7 +258,7 @@
 
     .body-portfolio {
         display: grid;
-        grid-template-rows: 5em 85vh 3em;
+        grid-template-rows: 5em 85vh 4em;
     }
 
     .header-portfolio {
@@ -225,8 +293,39 @@
     }
 
     .footer-portfolio {
+        align-items: center;
         background-image: url("../images/vaporwave_space4.jpg");
         background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .name {
+        font-family: "Iceland";
+        font-size: 4em;
+    }
+    .home-icon {
+        height: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 3em;
+    }
+    .social-media-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linkedin-icon {
+        height: 3em;
+        width: 3em;
+    }
+    .github-icon {
+        height: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 3em;
+    }
+    .twitter-icon {
+        height: 3em;
+        width: 3em;
     }
 
 }
