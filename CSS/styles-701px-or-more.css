@@ -18,8 +18,8 @@
     }
 
     @font-face {
-        font-family: "Roboto-Light";
-        src: url("../fonts/Roboto-Light.ttf") format("truetype");
+        font-family: "Numans";
+        src: url("../fonts/Numans-Regular.ttf") format("truetype");
     }
 
     .homepage {
@@ -116,7 +116,7 @@
         border-top: .25em solid rgb(184,56,228);
         color: white;
         display: grid;
-        font-family: "Roboto-Light";
+        font-family: "Numans";
         font-size: 1.2em;
         grid-template-columns: 30em 30em;
         justify-content: center;
@@ -211,7 +211,7 @@
         color: white;
         display: flex;
         flex-wrap: wrap;
-        font-family: "Roboto-Light";
+        font-family: "Numans";
         font-size: 1em;
         justify-content: center;
     }
@@ -251,7 +251,6 @@
         height: 3em;
         width: 3em;
     }
-    }
 
 
     /* PORTFOLIO PAGE */
@@ -286,7 +285,7 @@
         border-top: .25em solid rgb(184,56,228);
         color: white;
         display: grid;
-        font-family: "Roboto-Light";
+        font-family: "Numans";
         font-size: 1.2em;
         /* grid-template-columns: 30em 30em; */
         justify-content: center;

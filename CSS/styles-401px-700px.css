@@ -18,8 +18,8 @@
     }
 
     @font-face {
-        font-family: "Roboto-Light";
-        src: url("../fonts/Roboto-Light.ttf") format("truetype");
+        font-family: "Numans";
+        src: url("../fonts/Numans-Regular.ttf") format("truetype");
     }
 
     .homepage {
@@ -42,7 +42,7 @@
         justify-content: center;
     }
 
-    .name {
+    .name-homepage {
         align-items: center;
         display: flex;
         font-size: 4em;
@@ -117,7 +117,7 @@
         color: white;
         display: flex;
         flex-wrap: wrap;
-        font-family: "Roboto-Light";
+        font-family: "Numans";
         font-size: .8em;
         justify-content: center;
     }
@@ -179,7 +179,7 @@
         border-top: .25em solid rgb(184,56,228);
         color: white;
         display: grid;
-        font-family: "Roboto-Light";
+        font-family: "Numans";
         font-size: 1.2em;
         /* grid-template-columns: 30em 30em; */
         justify-content: center;
@@ -223,7 +223,7 @@
         border-top: .25em solid rgb(184,56,228);
         color: white;
         display: grid;
-        font-family: "Roboto-Light";
+        font-family: "Numans";
         font-size: 1.2em;
         /* grid-template-columns: 30em 30em; */
         justify-content: center;
