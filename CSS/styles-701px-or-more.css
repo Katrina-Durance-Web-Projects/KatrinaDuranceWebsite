@@ -209,11 +209,24 @@
         border-bottom: .25em solid rgb(184,56,228);
         border-top: .25em solid rgb(184,56,228);
         color: white;
-        display: flex;
-        flex-wrap: wrap;
-        font-family: "Numans";
-        font-size: 1em;
+        display: grid;
+        grid-column-gap: 2em;
+        grid-template-columns: repeat(3, 30em);
         justify-content: center;
+    }
+
+    .blog-post {
+        border: .25em solid rgb(184,56,228);
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    This will be one of my blog posts.
+    .blog-banner {
+        height: auto;
+        width: 100%;
     }
 
     .footer-blog {
