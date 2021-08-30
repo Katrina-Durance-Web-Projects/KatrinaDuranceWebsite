@@ -293,7 +293,7 @@
 
     .portfolio-wrapper {
         align-items: center;
-        background-color: rgb(24,24,24);
+        background-color: black;
         border-bottom: .25em solid rgb(184,56,228);
         border-top: .25em solid rgb(184,56,228);
         color: white;
