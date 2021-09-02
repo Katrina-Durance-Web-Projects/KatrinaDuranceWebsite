@@ -76,7 +76,7 @@
         color: rgb(44, 165, 230);
     }
 
-    /* PAGES */
+    /**** PAGES ****/
 
     /* ABOUT ME PAGE */
 
@@ -186,11 +186,10 @@
         display: grid;
         font-family: "Numans";
         font-size: 1.2em;
-        /* grid-template-columns: 30em 30em; */
         justify-content: center;
     }
 
-    .footer-blog {
+    .blog-footer {
         background-image: url("../images/vaporwave_space1.jpg");
         background-size: cover;
     }
@@ -230,7 +229,6 @@
         display: grid;
         font-family: "Numans";
         font-size: 1.2em;
-        /* grid-template-columns: 30em 30em; */
         justify-content: center;
     }
 
